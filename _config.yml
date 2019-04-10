@@ -4,6 +4,7 @@ baseurl:
 # Site settings
 title: Sedbergh Lookaround
 email: editor@sedberghlookaround.org.uk
+phone: 07464 895425
 description: "The 'Lookaround' is a Community Newsletter which serves the population of Sedbergh and the surrounding areas of Cautley, Deepdale, Dent, Frostrow, Firbank, Garsdale, Gawthrop, Howgill, Killington, Middleton & Barbon.  We have a monthly print of between 800 & 1,000 copies."
 
 
@@ -17,7 +18,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url:https://www.facebook.com/Sedbergh-District-Lookaround-154897284569223/
+    url: https://www.facebook.com/Sedbergh-District-Lookaround-154897284569223/
 
 # Postal address (add as many lines as necessary)
 address:
