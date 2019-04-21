@@ -1,0 +1,17 @@
+{% assign issues = site.static_files | where: "issue", true %}
+{% assign issues_by_year = issues |
+  group_by_exp: "issue", "issue.basename | slice: -4, 4"  | reverse %}
+
+{% for year in issues_by_year  %}
+
+<div class="year-block list-group">
+<h3>{{ year.name }}</h3>
+    {% for issue in year.items %}
+
+        <a href="{{ issue.path }}" class="list-group-item list-group-item-action">
+          {{ issue.basename }}
+        </a>
+
+    {% endfor %}
+</div>
+{% endfor %}

@@ -16,22 +16,24 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="/#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="/#latest-edition">Latest Edition</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="" href={{"/previous-editions" || prepend: site.baseurl }}>
+                          Previous Editions
+                        </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="/#advertise">Advertise &amp; <br> Contribute</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="/#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="/#about">About</a>
                     </li>
                 </ul>
             </div>
@@ -44,15 +46,10 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Sedbergh & District</div>
+                <img src="{{ "/img/LookaroundLogo.svg" | | prepend: site.baseurl}} " alt="LOOKAROUND" title="LOOKAROUND" style="width:100%;fill:white;">
+                <div class="intro-heading">Community Newsletter</div>
+                <a href="#latest-edition" class="page-scroll btn btn-xl">Latest Edition</a>
             </div>
         </div>
     </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
