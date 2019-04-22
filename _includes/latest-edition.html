@@ -13,7 +13,7 @@
                       <h3>UNDER NEW EDITORIALSHIP</h3>
 
                       <p>
-                      As of from the 1st January,
+                      As of the 1st January,
                       there is a new Editorial Team
                       under the guidance of
                       Myles Ripley.
@@ -25,18 +25,16 @@
                       remain the same.
                       </p>
 
-                      <p>
-                      If you would like to join the Team, please make contact as many hands make light work.
-                      </p>
                 </div>
                 <div class="col-lg-4">
-                  <a href="{{ latest_issue.path }}" class="list-group-item list-group-item-action">
-                    <img src="/img/current-edition.jpg" class="img-fluid">
+                  <a href="{{ latest_issue.path | uri_escape }}" class="">
+                    <img src="/img/current-edition.jpg" class="img-responsive" alt="Latest Edition">
+                    Latest Edition: {{ latest_issue.basename }}
                   </a>
                 </div>
 
                 <div class="col-lg-4">
-                    <p>You can look at our calatalogue of <a href="/previous-editions">previous editions here</a>.
+                    <p>You can look at our catalogue of <a href="/previous-editions">previous editions here</a>.
                 </div>
             </div>
         </div>
