@@ -1,0 +1,41 @@
+{% assign issues = site.static_files | where: "issue", true %}
+{% assign latest_issue = issues | last  %}
+
+<section id="latest-edition">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Latest Edition</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                      <h3>UNDER NEW EDITORIALSHIP</h3>
+
+                      <p>
+                      As of the 1st January,
+                      there is a new Editorial Team
+                      under the guidance of
+                      Myles Ripley.
+                      </p>
+
+                      <p>
+                      Contact details with the
+                      Phone and e-mail address
+                      remain the same.
+                      </p>
+
+                </div>
+                <div class="col-lg-4">
+                  <a href="{{ latest_issue.path | uri_escape }}" class="">
+                    <img src="/img/current-edition.jpg" class="img-responsive" alt="Latest Edition">
+                    Latest Edition: {{ latest_issue.basename }}
+                  </a>
+                </div>
+
+                <div class="col-lg-4">
+                    <p>You can look at our catalogue of <a href="/previous-editions">previous editions here</a>.
+                </div>
+            </div>
+        </div>
+</section>

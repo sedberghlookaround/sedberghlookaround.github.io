@@ -1,0 +1,31 @@
+{% assign issues = site.static_files | where: "issue", true %}
+{% assign issues_by_year = issues |
+  group_by_exp: "issue", "issue.basename | slice: -4, 4"  | reverse %}
+
+{% for year in issues_by_year  %}
+
+<div class="year-block list-group">
+    <h3>
+        <a data-toggle="collapse" href="#collapse{{ year.name }}">
+          {{ year.name }}
+        </a>
+    </h3>
+    <div id="collapse{{ year.name }}" class="panel-collapse collapse">
+        {% for issue in year.items %}
+            <a href="{{ issue.path | uri_escape }}" class="list-group-item list-group-item-action">
+              {{ issue.basename }}
+            </a>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+{% endfor %}
+<div class="year-block list-group">
+    <h3>
+        <a href="/img/First%20Lookaround.pdf" target="_blank" >
+            The First Edition
+        </a>
+    </h3>
+</div>
