@@ -1,4 +1,25 @@
 ---
 layout: default
 ---
-    {% include back-issues-by-year.html %}
+<section id="previous-editons">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Previous Editions</h2>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <p>Please select a year to expand its editions.</p>
+                <p>Effort has been made to reduce the filesize of these editions.
+                  However, some are quite large at around 10mb.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                      {% include back-issues-by-year.html %}
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
