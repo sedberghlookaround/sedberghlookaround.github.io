@@ -7,21 +7,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled text-center">
-                          <li><a href="tel:{{ site.phone | uri_escape }}"><i class="fas fa-phone"></i>: {{ site.phone }}</a>
-                          </li>
-                          <li><a href="mailto:{{ site.email }}"><i class="far fa-envelope"></i>: {{ site.email }}</a>
-                          </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled text-center">
-                          {% for address-line in site.address %}
-                              <li>{{ address-line.line }}</li>
-                          {% endfor%}
-                        </ul>
-                    </div>
+                    <ul class="list-unstyled text-center">
+                      {% for address-line in site.address %}
+                          <li>{{ address-line.line }}</li>
+                      {% endfor%}
+                    </ul>
+                    <ul class="list-unstyled text-center">
+                      <li><a href="tel:{{ site.phone | uri_escape }}"><i class="fas fa-phone"></i>: {{ site.phone }}</a>
+                      </li>
+                      <li><a href="mailto:{{ site.email }}"><i class="far fa-envelope"></i>: {{ site.email }}</a>
+                      </li>
+                    </ul>
                 </div>
             </div>
         </div>
