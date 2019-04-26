@@ -1,19 +1,22 @@
-Agency Jekyll theme
+Sedbergh and Community Website
 ====================
-
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
 # How to use
 
-###Portfolio 
+###New Editions
+Upload new editions to './issues'
+Name should in the following format
 
-Portfolio projects are in '/_posts'
+197 February 2003.pdf
+{Edition Number} {Month} {Year}.pdf
 
-Images are in '/img/portfolio'
+N.B
+The last four characters must be the year.  It is this which lets the site group the in year blocks.
 
-###About
+The image used to create a link to the latest edition is found at the following location  './img/current-edition.jpg' Simply replace it to when you upload a new edition.
 
-Images are in '/img/about/'
+###Text
+The text is largely inside the layout elements.  It should ideally be drawn from datafiles and posts.  However, for now suggest text changes to someone happy to edit html.
 
 ###Team
 
@@ -22,7 +25,9 @@ Team members and info are in '_config.yml'
 Images are in '/img/team/'
 
 
-# Demo
+###Technology Info
+
+Forked from Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
