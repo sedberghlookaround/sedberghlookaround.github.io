@@ -1,6 +1,9 @@
-Sedbergh and Community Website
+Sedbergh & District Lookaround
 ====================
-This is a community newsletter whose homepage is hosted on github pages.
+The 'Lookaround' is a Community Newsletter which serves the population of Sedbergh and the surrounding areas of Cautley, Deepdale, Dent, Frostrow, Firbank, Garsdale, Gawthrop, Howgill, Killington, Middleton & Barbon.  We have a monthly print of between 800 & 1,000 copies.
+
+This is the homepage for the newsletter and it is hosted on github pages.
+
 Please submit suggestions to team members, raise an issue or even make a pull request from a fork.
 
 # How to use
