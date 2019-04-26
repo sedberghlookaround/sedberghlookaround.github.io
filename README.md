@@ -6,6 +6,7 @@ Please submit suggestions to team members, raise an issue or even make a pull re
 # How to use
 
 ### New Editions
+#### PDFs
 Upload new editions to './issues'
 Name should in the following format
 
@@ -15,11 +16,12 @@ Name should in the following format
 N.B
 The last four characters must be the year.  It is this which lets the site group the in year blocks.
 
-PDFs should be optimised for the web.  I recommend [this site].(https://www.wecompress.com/en/)
+PDFs should be optimised for the web.  I recommend [this site.](https://www.wecompress.com/en/)
 
+#### Images
 The image used to create a link to the latest edition is found at the following location  './img/current-edition.jpg' Simply replace it to when you upload a new edition.
 
-### Text
+### Copy
 The text is largely inside the layout elements.  It should ideally be drawn from datafiles and posts. However, for now suggest text changes to someone happy to edit html.
 
 ### Team
@@ -35,5 +37,7 @@ Forked from Agency theme based on [Agency bootstrap theme.](https://startbootstr
 View the original jekyll theme in action [here.](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
+
 For more details about the templating stack, read the [Jekyll documentation.](http://jekyllrb.com/)
+
 For more information about [github pages read the docs.](https://pages.github.com/)
