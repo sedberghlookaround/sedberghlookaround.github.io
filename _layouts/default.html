@@ -9,13 +9,13 @@ layout: default
 
 
     <body id="page-top" class="index">
+      <div id="page-wrapper" class="text-center">
+        {% include header.html %}
 
-    {% include header.html %}
+           {{ content }}
 
-       {{ content }}
-
-    {% include footer.html %}
-    {% include js.html %}
-
+        {% include footer.html %}
+        {% include js.html %}
+      </div>
     </body>
 </html>

@@ -1,30 +1,46 @@
-Agency Jekyll theme
+Sedbergh & District Lookaround
 ====================
+The 'Lookaround' is a Community Newsletter which serves the population of Sedbergh and the surrounding areas of Cautley, Deepdale, Dent, Frostrow, Firbank, Garsdale, Gawthrop, Howgill, Killington, Middleton & Barbon.  We have a monthly print of between 800 & 1,000 copies.
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+This is the homepage for the newsletter and it is hosted on github pages.
+
+Please submit suggestions to team members, raise an issue or even make a pull request from a fork.
 
 # How to use
 
-###Portfolio 
+### New Editions
+#### PDFs
+Upload new editions to './issues'
+Name should in the following format
 
-Portfolio projects are in '/_posts'
+    197 February 2003.pdf
+    {Edition Number} {Month} {Year}.pdf
 
-Images are in '/img/portfolio'
+N.B
+The last four characters must be the year.  It is this which lets the site group the in year blocks.
 
-###About
+PDFs should be optimised for the web.  I recommend [this site.](https://www.wecompress.com/en/)
 
-Images are in '/img/about/'
+#### Images
+The image used to create a link to the latest edition is found at the following location  './img/current-edition.jpg' Simply replace it to when you upload a new edition.
 
-###Team
+### Copy
+The text is largely inside the layout elements.  It should ideally be drawn from datafiles and posts. However, for now suggest text changes to someone happy to edit html.
 
-Team members and info are in '_config.yml'
+### Team
 
-Images are in '/img/team/'
+Team members and info are in '_config.yml'.
+Images are in '/img/team/'.
 
 
-# Demo
+### Technology Info
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+Forked from Agency theme based on [Agency bootstrap theme.](https://startbootstrap.com/template-overviews/agency/)
+
+View the original jekyll theme in action [here.](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
-For more details, read [documentation](http://jekyllrb.com/)
+
+For more details about the templating stack, read the [Jekyll documentation.](http://jekyllrb.com/)
+
+For more information about [github pages read the docs.](https://pages.github.com/)
