@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.muted }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 h1,
@@ -329,9 +329,11 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 40px;
+    text-decoration: underline;
+
 }
 
 section h3.section-subheading {
@@ -345,7 +347,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -375,6 +377,7 @@ svg#logo {
 }
 
 section#contact {
+    color: white;
     background-color: #222;
     background-position: center;
     background-repeat: no-repeat;
@@ -436,6 +439,17 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact a:hover,
+#contact a:focus,
+#contact a:active,
+#contact a.active {
+    color: #{{ site.data.template.color.muted }};
 }
 
 footer {
