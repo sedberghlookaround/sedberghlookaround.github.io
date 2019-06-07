@@ -24,6 +24,8 @@ PDFs should be optimised for the web.  I recommend [this site.](https://www.weco
 #### Images
 The image used to create a link to the latest edition is found at the following location  './img/current-edition.jpg' Simply replace it to when you upload a new edition.
 
+Extract first page for the website 'cover'.  Print first page to pdf upload here - https://www.ilovepdf.com/pdf_to_jpg
+
 ### Copy
 The text is largely inside the layout elements.  It should ideally be drawn from datafiles and posts. However, for now suggest text changes to someone happy to edit html.
 
