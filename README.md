@@ -35,14 +35,31 @@ Team members and info are in '_config.yml'.
 Images are in '/img/team/'.
 
 
+
 ### Technology Info
+
+#### Template
 
 Forked from Agency theme based on [Agency bootstrap theme.](https://startbootstrap.com/template-overviews/agency/)
 
-View the original jekyll theme in action [here.](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
+#### Content Management - Jekyll
 
 For more details about the templating stack, read the [Jekyll documentation.](http://jekyllrb.com/)
 
-For more information about [github pages read the docs.](https://pages.github.com/)
+##### Updating Jekyll
+
+Occasionally Jekyll will need updating. Clone or update a version of the site locally.
+
+    git clone git@github.com:sedberghlookaround/sedberghlookaround.github.io.git
+    or
+    git pull
+    
+Update via the following command.
+
+    bundle update
+    
+Commit change and push to githup
+
+    git commit -am "Update Jekyll"
+    git push
+  
